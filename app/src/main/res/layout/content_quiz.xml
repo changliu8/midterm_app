@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/inner_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/inner_name" />
+
+        <TextView
+            android:id="@+id/inner_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/inner_id" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ImageButton
+        android:id="@+id/flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/flag"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/question_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/Question_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/optionA_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/optionA_text" />
+
+        <TextView
+            android:id="@+id/optionB_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/optionB_text" />
+
+        <TextView
+            android:id="@+id/optionC_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/optionC_text" />
+
+        <TextView
+            android:id="@+id/optionD_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/optionD_text" />
+
+        <TextView
+            android:id="@+id/optionE_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/optionE_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:divider="@drawable/spacer_medium"
+        android:showDividers="middle"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/ButtonA_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ButtonA_text" />
+
+        <Button
+            android:id="@+id/ButtonB_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ButtonB_text" />
+
+        <Button
+            android:id="@+id/ButtonC_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ButtonC_text" />
+
+        <Button
+            android:id="@+id/ButtonD_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ButtonD_text" />
+
+        <Button
+            android:id="@+id/ButtonE_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ButtonE_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/spacer_medium"
+        android:showDividers="middle"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prev_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Button_prev" />
+
+        <Button
+            android:id="@+id/submit_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/Button_submit" />
+
+        <Button
+            android:id="@+id/next_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Button_next" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/midterm_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/counting_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/time"
+        android:textSize="30sp" />
+
+</LinearLayout>

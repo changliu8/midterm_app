@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Midterm</string>
+    <string name="Email_text">changliu8@cmail.carleton.ca</string>
+    <string name="Question_text">string text</string>
+    <string name="ButtonA_text">A</string>
+    <string name="ButtonB_text">B</string>
+    <string name="ButtonC_text">C</string>
+    <string name="ButtonD_text">D</string>
+    <string name="ButtonE_text">E</string>
+    <string name="optionA_text">"option A"</string>
+    <string name="optionB_text">"option B"</string>
+    <string name="optionC_text">"option C"</string>
+    <string name="optionD_text">"option D"</string>
+    <string name="optionE_text">"option E"</string>
+    <string name="Button_next">next</string>
+    <string name="Button_prev">prev</string>
+    <string name="Button_submit">submit</string>
+    <string name="text_name">name</string>
+    <string name="text_id">id</string>
+    <string name="info">Please enter your name and id before you start your midterm</string>
+    <string name="start">start</string>
+    <string name="logo">LOGO</string>
+    <string name="inner_name">Name: </string>
+    <string name="inner_id">ID: </string>
+    <string name="selection_button1">1</string>
+    <string name="selection_button2">2</string>
+    <string name="selection_button3">3</string>
+    <string name="selection_button4">4</string>
+    <string name="selection_button5">5</string>
+    <string name="selection_button6">6</string>
+    <string name="selection_button7">7</string>
+    <string name="selection_button8">8</string>
+    <string name="selection_button9">9</string>
+    <string name="selection_button10">10</string>
+    <string name="final_mark">Mark: </string>
+    <string name="flag">FLAG</string>
+    <string name="time">60:00</string>
+
+
+</resources>

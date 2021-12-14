@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exam>
+    <question id="question_1" contributor="Chang Liu">
+        <question_text>
+            Which ONE of the following is object oriented programming
+        </question_text>
+        <option_A>Java</option_A>
+        <option_B>Prolog</option_B>
+        <option_C>Scheme</option_C>
+        <option_D>C</option_D>
+        <option_E>None of Above</option_E>
+    </question>
+    <question id="question_2" contributor="Chang Liu">
+        <question_text>
+            Which of the following is not a Java features?
+        </question_text>
+        <option_A>Dynamic</option_A>
+        <option_B>Architecture Neutral</option_B>
+        <option_C>Use of pointers</option_C>
+        <option_D>Object-oriented</option_D>
+        <option_E>Static</option_E>
+    </question>
+    <question id="question_3" contributor="Chang Liu">
+        <question_text>
+            The default value of a static integer variable of a class in Java is,
+        </question_text>
+        <option_A>0</option_A>
+        <option_B>1</option_B>
+        <option_C>Garbage value</option_C>
+        <option_D>null</option_D>
+        <option_E>-1</option_E>
+    </question>
+    <question id="question_4" contributor="Chang Liu">
+        <question_text>
+            Multiple inheritance means,
+        </question_text>
+        <option_A>more classes inheriting from one super class</option_A>
+        <option_B>one class inheriting from more super classes</option_B>
+        <option_C>more classes inheriting from more super classes</option_C>
+        <option_D>None of the above</option_D>
+        <option_E>(e) (a) and (b) above.</option_E>
+    </question>
+    <question id="question_5" contributor="Chang Liu">
+        <question_text>
+            To prevent any method from overriding, we declare the method as,
+        </question_text>
+        <option_A>static</option_A>
+        <option_B>const</option_B>
+        <option_C>final</option_C>
+        <option_D>abstract</option_D>
+        <option_E>none of the above.</option_E>
+    </question>
+    <question id="question_6" contributor="Chang Liu">
+        <question_text>
+            The fields in an interface are implicitly specified as,
+        </question_text>
+        <option_A>static only</option_A>
+        <option_B>protected</option_B>
+        <option_C>private</option_C>
+        <option_D>both static and final</option_D>
+        <option_E>none of the above.</option_E>
+    </question>
+    <question id="question_7" contributor="Chang Liu">
+        <question_text>
+            Which of the following is not true?
+        </question_text>
+        <option_A>An interface can extend another interface.</option_A>
+        <option_B>A class which is implementing an interface must implement all the methods of the interface.</option_B>
+        <option_C>An interface can implement another interface.</option_C>
+        <option_D>An interface is a solution for multiple inheritance in java.</option_D>
+        <option_E>none of the above.</option_E>
+    </question>
+    <question id="question_8" contributor="Chang Liu">
+        <question_text>
+            In a class definition, the special method provided to be called to create an instance of that class is known as a/an
+        </question_text>
+        <option_A>Interpreter</option_A>
+        <option_B>Destructor</option_B>
+        <option_C>Constructor</option_C>
+        <option_D>Object</option_D>
+        <option_E>Compiler</option_E>
+    </question>
+    <question id="question_9" contributor="Chang Liu">
+        <question_text>
+            An overloaded method consists of,
+        </question_text>
+        <option_A>The same method name with different types of parameters</option_A>
+        <option_B>The same method name with different number of parameters</option_B>
+        <option_C>The same method name and same number and type of parameters with different return type</option_C>
+        <option_D>Both (a) and (b) above</option_D>
+        <option_E>(a), (b) and (c) above.</option_E>
+    </question>
+    <question id="question_10" contributor="Chang Liu">
+        <question_text>
+            Which of the following are not Java keywords
+        </question_text>
+        <option_A>double</option_A>
+        <option_B>switch</option_B>
+        <option_C>elif</option_C>
+        <option_D>null</option_D>
+        <option_E>instanceof</option_E>
+    </question>
+    <question id="question_11" contributor="Chang Liu">
+        <question_text>
+            What is the default value of Boolean variable?
+        </question_text>
+        <option_A>true</option_A>
+        <option_B>false</option_B>
+        <option_C>null</option_C>
+        <option_D>not defined</option_D>
+        <option_E>empty</option_E>
+    </question>
+    <question id="question_12" contributor="Chang Liu">
+        <question_text>
+            What is the size of byte variable?
+        </question_text>
+        <option_A>8 bit</option_A>
+        <option_B>16 bit</option_B>
+        <option_C>32 bit</option_C>
+        <option_D>64 bit</option_D>
+        <option_E>depends on the device</option_E>
+    </question>
+    <question id="question_13" contributor="Chang Liu">
+        <question_text>
+            Which of the following is false about String?
+        </question_text>
+        <option_A>String is immutable.</option_A>
+        <option_B>String can be created using new operator</option_B>
+        <option_C>String is a primary data type</option_C>
+        <option_D>String can pass as a parameter into a function</option_D>
+        <option_E>None of the above</option_E>
+    </question>
+    <question id="question_14" contributor="Chang Liu">
+        <question_text>
+            What is Encapsulation?
+        </question_text>
+        <option_A>Encapsulation is a technique to define different methods of same type</option_A>
+        <option_B>Encapsulation is the ability of an object to take on many forms</option_B>
+        <option_C>Encapsulation is the technique of making the fields in a class private and providing access to the fields via public methods</option_C>
+        <option_D>Encapsulation is a special method used when creating instance of an object</option_D>
+        <option_E>None of the above</option_E>
+    </question>
+    <question id="question_15" contributor="Chang Liu">
+        <question_text>
+            What is the default value of byte variable?
+        </question_text>
+        <option_A>0</option_A>
+        <option_B>0.0</option_B>
+        <option_C>null</option_C>
+        <option_D>not defined</option_D>
+        <option_E>empty</option_E>
+    </question>
+
+    <email>changliu8@cmail.carleton.ca</email>
+</exam>
